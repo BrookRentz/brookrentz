@@ -1,0 +1,28 @@
+.hero {
+  height: 400px;
+  background: url(debugduck.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 5em;
+}
+
+.hero h2 {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.hero-text {
+  height: 400px;
+  vertical-align: center;
+  width: 100%;
+  text-align: center;
+  background: rgb(0, 0, 0, 0.7);
+}
+
+.hero-text h1, h2 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
