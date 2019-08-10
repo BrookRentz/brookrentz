@@ -14,10 +14,11 @@
             content="Brook Rentz' portfolio highlighting front in skills and lady dev awesomeness!">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
             integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+       
+        <link rel="stylesheet" href="assets/css/styles.css" />
         <link rel="stylesheet" href="assets/css/nav.css" />
-        <link rel="stylesheet" href="assets/css/hero.css" />
-    
-
+        <link rel="stylesheet" href="assets/css/hero.css" />    
+        <link rel="stylesheet" href="assets/css/cards.css" />
     </head>
 
     <body>
@@ -27,7 +28,7 @@
             <div class="hero" id="about">
                 <div class="hero-text">
                     <h1>Hello, I'm Brook.</h1>
-                    <h2>I'm passionate about learning and well designed websites!</h2>
+                    <h2>I'm a beginner web developer with a passion for learning and creating!</h2>
                 </div>
             </div>
 
@@ -45,6 +46,7 @@
                     <li class="nav-item active"><a href="#">Home</a></li>
                     <li class="nav-item"><a href="#about">About</a></li>
                     <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -52,66 +54,110 @@
         <section>
             <div id=about>
                 <h2>About</h2>
-                <p>Somehting about me and my skills</p>
-                <p>List of skills</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Non sodales neque sodales ut etiam sit. Massa massa ultricies mi quis
+                    hendrerit dolor magna eget. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget.
+                    Tristique magna sit amet purus gravida. Quam adipiscing vitae proin sagittis nisl rhoncus mattis
+                    rhoncus urna. Faucibus turpis in eu mi bibendum neque egestas congue. Est velit egestas dui id
+                    ornare arcu odio. </p>
+
+                <h3>Learning to Code</h3>
                 <ul>
-                    <li>skill 1</li>
-                    <li>skill 2</li>
+                    <li>ngGirls KC - 2019</li>
+                    <li>KCWiT Coding and Cocktails, Mentor - 2019</li>
+                    <li>djangoGirls KC - 2018</li>
+                    <li>KCWiT Coding and Cocktails, Attendee - 2018</li>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Command Line</li>
+                        <li>Version Control</li>
+                        <li>Front-End Architechture</li>
+                        <li>JavaScript 1 &amp; 2</li>
+                        <li>Server-side APIs</li>
+                        <li>Single Page Applications</li>
+                        <li>Package Managers</li>
+                        <li>Mini Hack-a-thon</li>
+                    </ul>
                 </ul>
+                <a class="btn btn-secondary" href="https://github.com/BrookRentz">Check out my GitHub</a>                
             </div>
 
             <div id= portfolio>
                 <h2>Portfolio</h2>
                 <div class="card-deck">
                     <div class="card">
-                        <img src="#" class="card-img-top" alt="Bonner Farmers Market Screenshot">
+                        <img class="card-img-top" src="assets/css/images/bsfma.jpg" alt="Card image">
                         <div class="card-body">
-                            <h5 class="card-title">Farmers Market</h5>
+                            <h5 class="card-title">Bonner Springs Farmers' Market</h5>
                             <p class="card-text">Really awesome market website</p>
+                            <ul class="card-text"></ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
                         </div>
                         <div class="card-footer">
                             <li><a href="https://bonnerfarmersmarket.org" class="icon fa-globe"><span
-                                        class="label">Link</span></a></li>
+                                        class="label">Website</span></a></li>
+                            <li><a href="https://github.com/bsfma/bsfma.github.io"
+                                    class="icon fa-globe"><span
+                                        class="label">GitHub Repo</span></a></li>
+
                         </div>
                     </div>
                     <div class="card">
-                        <img src="# class="card-img-top" alt="Thirdspace Screenshot">
+                        <img class="card-img-top" src="assets/css/images/kevinandbrook.jpg" alt="Card image">
                         <div class="card-body">
-                            <h5 class="card-title">Thirdspace Coffeehouse</h5>
-                            <p class="card-text">Really awesome thirdspace website</p>
+                            <h5 class="card-title">Virtual Christmas Card</h5>
+                            <p class="card-text">Really awesome christmas card website</p>
+                            <ul class="card-text"></ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                        </div>
+                        <div class="card-footer">
+                            <li><a href="https://kevinandbrook.com"
+                                    class="icon fa-globe"><span class="label">Website</span></a></li>
+                             <li><a href="https://github.com/BrookRentz/kevinandbrook.github.io"
+                                    class="icon fa-globe"><span class="label">GitHub Repo</span></a></li>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/css/images/thirdspace.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title">Third Space Coffee</h5>
+                            <p class="card-text">Really awesome coffee website</p>
+                            <ul class="card-text"></ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>Vue.js</li>
                         </div>
                         <div class="card-footer">
                             <li><a href="https://thirdspacecoffeehouse.com/#/" class="icon fa-globe><span
-                                        class="label">Link</span></a></li>
+                                class=" label">Website</span></a></li>
+                            <li><a href="https://github.com/thirdspacecoffee/thirdspacecoffee.github.io"
+                                class="icon fa-globe"><span class="label">GitHub Repo</span></a></li>
+
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="#" class="card-img-top" alt="Github screenshot">
-                        <div class="card-body">
-                            <h5 class="card-title">GitHub</h5>
-                            <p class="card-text">My really awesome github account</p>
-                        </div>
-                        <div class="card-footer">
-                            <li><a href="https://www.facebook.com/GrammyTammyCreatingInKansas/?__tn__=%2Cd%2CP-R&eid=ARD-8zguyJPHdKxgLdZVA7xzccSUJo0hxczEPOKbi53mg6t5G8Kuzh_JZypyOuPmNVt0Ty7xbAhfS37B"
-                                    class="icon fa-globe"><span class="label">Link</span></a></li>
-                        </div>
-                    </div>
+
                 </div>
             </div>
+
+            <div id=contact>
+                <h2>Contact</h2>
+                <p>Have a question or want to work together?</p>
+                <a class="btn btn-secondary"
+                    href="mailto:brook.rentz@gmail.com?subject=I Need a Web Dev!">E-mail me</a>
+
         </section>
 
         
         <!-- Footer -->
         <footer id="footer">
-            <ul class="icons">
-                <li><a href="https://www.facebook.com/bonnerspringsfarmersmarket/?ref=bookmarks"
-                        class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="https://www.instagram.com/bonnerspringsfarmersmarket/" class="icon fa-instagram"><span
-                            class="label">Instagram</span></a></li>
-                <li><a href="mailto:bonnerfarmersmarket@gmail.com" class="icon fa-envelope"><span
-                            class="label">Email</span></a></li>
-            </ul>
-            <p class="copyright"> Design and built by Brook Rentz (with a little help from stackoverflow)</p>
+            <p> Designed and built by Brook Rentz | &copy2019</p>
         </footer>
 
     </body>

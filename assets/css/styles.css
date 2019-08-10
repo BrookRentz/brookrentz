@@ -1,0 +1,81 @@
+#about {
+    padding-bottom: 50px;
+}
+
+#portfolio {
+    padding-bottom: 50px;
+}
+
+#contact {
+    padding-bottom: 50px;
+}
+
+#about h2,
+#about h3,
+#about p,
+#about ul {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#about li {
+    margin-left:25px;
+}
+
+#about h3 {
+    font-size: 1.2em;
+}
+
+#about a {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#portfolio h2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#contact h2, 
+#contact p {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#contact a {
+    margin-left: 50px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 4em;
+    background-color: #786094
+}
+
+#footer li {
+    list-style: none;
+}
+
+#footer .copyright {
+    font-size: 0.8em;
+}
+
+#footer p {
+    color: rgb(231, 230, 230);
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 736px) {
+
+    #footer {
+        margin-top: 2em;
+    }
+
+}
