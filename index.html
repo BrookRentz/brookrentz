@@ -11,57 +11,40 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description"
-            content="Brook Rentz' portfolio highlighting front in skills and lady dev awesomeness!">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-       
+            content="Brook Rentz's portfolio highlighting front in skills and lady dev awesomeness!">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Sacramento&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/nav.css" />
         <link rel="stylesheet" href="assets/css/hero.css" />    
         <link rel="stylesheet" href="assets/css/cards.css" />
+        <link rel="stylesheet" href="assets/css/header.css" />
+        <script src="https://kit.fontawesome.com/03d485bca3.js"></script>
     </head>
 
     <body>
 
         <!-- Header -->
-        <div>
-            <div class="hero" id="about">
-                <div class="hero-text">
-                    <h1>Hello, I'm Brook.</h1>
-                    <h2>I'm a beginner web developer with a passion for learning and creating!</h2>
-                </div>
-            </div>
 
-        <!-- Nav Bar -->
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href="index.html">
-                <i class="fas fa-carrot"></i>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                </ul>
+        <header id="header" class="alt">
+            <div class="inner">
+                <h1>Hi, I'm Brook!</h1>
+                <p>I'm a beginner web developer with a passion for learning and creating!</p>
             </div>
-        </nav>
+        </header>
 
         <section>
             <div id=about>
                 <h2>About</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Non sodales neque sodales ut etiam sit. Massa massa ultricies mi quis
-                    hendrerit dolor magna eget. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget.
-                    Tristique magna sit amet purus gravida. Quam adipiscing vitae proin sagittis nisl rhoncus mattis
-                    rhoncus urna. Faucibus turpis in eu mi bibendum neque egestas congue. Est velit egestas dui id
-                    ornare arcu odio. </p>
+                <p>Hello, my name is Brook! I’m a chemical engineer by degree, an environmental engineer by trade, and a
+                    web developer…a bit by accident. About a year and a half ago, I stumbled into web development and my
+                    passion grew from there. Since then, I’ve been learning all I can about this fascinating field and
+                    working on projects as my skills have progressed. Check out some of the projects I’ve been working
+                    on a drop me a line if you’d like to learn more! </p>
 
-                <h3>Learning to Code</h3>
+                <h3>Events I've Attended</h3>
                 <ul>
                     <li>ngGirls KC - 2019</li>
                     <li>KCWiT Coding and Cocktails, Mentor - 2019</li>
@@ -87,29 +70,37 @@
                 <h2>Portfolio</h2>
                 <div class="card-deck">
                     <div class="card">
-                        <img class="card-img-top" src="assets/css/images/bsfma.jpg" alt="Card image">
+                        <a href="https://bonnerfarmersmarket.org" style="height:100%;"><img class="card-img-top"
+                            src="assets/css/images/bsfma.jpg" alt="Card image"></a>
                         <div class="card-body">
                             <h5 class="card-title">Bonner Springs Farmers' Market</h5>
-                            <p class="card-text">Really awesome market website</p>
+                            <p class="card-text">This project combined my passion for web development with my desire to help
+                                bring fresh food access to areas that need it most. I started with a template landing 
+                                page, then made significant modifications to styling and content and built additional pages.</p>
+                        </div>
+                        <div class="card-tech">
                             <ul class="card-text"></ul>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Bootstrap</li>
                         </div>
                         <div class="card-footer">
-                            <li><a href="https://bonnerfarmersmarket.org" class="icon fa-globe"><span
-                                        class="label">Website</span></a></li>
+                            <li><a href="https://bonnerfarmersmarket.org" class="fas fa-external-link-square-alt"></a></li>
                             <li><a href="https://github.com/bsfma/bsfma.github.io"
-                                    class="icon fa-globe"><span
-                                        class="label">GitHub Repo</span></a></li>
+                                    class="fab fa-github"></a></li>
 
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="assets/css/images/kevinandbrook.jpg" alt="Card image">
+                        <a href="https://kevinandbrook.com" style="height:100%;"><img class="card-img-top"
+                            src="assets/css/images/kevinandbrook.jpg" alt="Card image"></a>
                         <div class="card-body">
                             <h5 class="card-title">Virtual Christmas Card</h5>
-                            <p class="card-text">Really awesome christmas card website</p>
+                            <p class="card-text">This fun little project brought my traditional Christmas letter into the 
+                                21st Century. My Christmas cards had a QR code which led friends and family to this site 
+                                where I chronicled my adventures for the year.</p>
+                        </div>    
+                        <div class="card-tech">
                             <ul class="card-text"></ul>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -117,17 +108,22 @@
                         </div>
                         <div class="card-footer">
                             <li><a href="https://kevinandbrook.com"
-                                    class="icon fa-globe"><span class="label">Website</span></a></li>
+                                    class="fas fa-external-link-square-alt"></a></li>
                              <li><a href="https://github.com/BrookRentz/kevinandbrook.github.io"
-                                    class="icon fa-globe"><span class="label">GitHub Repo</span></a></li>
+                                    class="fab fa-github"></a></li>
                         </div>
                         
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="assets/css/images/thirdspace.jpg" alt="Card image">
+                        <a href="https://thirdspacecoffeehouse.com/#/" style="height:100%;"><img class="card-img-top"
+                            src="assets/css/images/thirdspace.jpg" alt="Card image"></a>
                         <div class="card-body">
                             <h5 class="card-title">Third Space Coffee</h5>
-                            <p class="card-text">Really awesome coffee website</p>
+                            <p class="card-text">I first dabbled in web frameworks as a contributor on this lovely site 
+                                for a local coffee shop. I was responsible for the design and story boarding for this 
+                                project, as well as fine tuning the styling prior to deployment.</p>
+                        </div>
+                        <div class="card-tech">
                             <ul class="card-text"></ul>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -135,11 +131,10 @@
                             <li>Vue.js</li>
                         </div>
                         <div class="card-footer">
-                            <li><a href="https://thirdspacecoffeehouse.com/#/" class="icon fa-globe><span
-                                class=" label">Website</span></a></li>
+                            <li><a href="https://thirdspacecoffeehouse.com/#/"
+                                    class="fas fa-external-link-square-alt"></a></li>
                             <li><a href="https://github.com/thirdspacecoffee/thirdspacecoffee.github.io"
-                                class="icon fa-globe"><span class="label">GitHub Repo</span></a></li>
-
+                                class="fab fa-github"></a></li>
                         </div>
                     </div>
 
@@ -157,7 +152,8 @@
         
         <!-- Footer -->
         <footer id="footer">
-            <p> Designed and built by Brook Rentz | &copy2019</p>
+            
+            <p> Designed and built by Brook Rentz | &copy 2019</p>
         </footer>
 
     </body>

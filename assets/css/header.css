@@ -1,0 +1,156 @@
+/* Header */
+
+#header {
+    background-color: #444;
+    color: rgba(255, 255, 255, 0.75);
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 8em 0 6em 0;
+    background-image: url(debugduck.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    cursor: default;
+    border-bottom: 25px solid #786094;
+    margin-bottom: 50px;
+}
+
+#header input,
+#header select,
+#header textarea {
+    color: #ffffff;
+}
+
+#header a {
+    color: inherit;
+}
+
+#header strong,
+#header b {
+    color: #ffffff;
+}
+
+#header h1,
+#header h2,
+#header h3,
+#header h4,
+#header h5,
+#header h6 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#header blockquote {
+    border-left-color: #ffffff;
+}
+
+#header hr {
+    border-bottom-color: #ffffff;
+}
+
+#header:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#header h1 {
+    margin-bottom: 0.5em;
+}
+
+#header .inner {
+    position: relative;
+    z-index: 1;
+}
+
+#header.alt {
+    height: 20em;
+    min-height: 20em;
+    min-height: 60vh;
+}
+
+#header.alt h1 {
+    font-size: 6em;
+    padding: 0 0.5em 0.25em 0.5em;
+    font-weight: 300;
+    font-family: 'Sacramento', cursive;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+#header.alt p {
+    letter-spacing: 0.325rem;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0 1.25em;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+#header.alt .inner {
+    -moz-transition: opacity 2s ease;
+    -webkit-transition: opacity 2s ease;
+    -ms-transition: opacity 2s ease;
+    transition: opacity 2s ease;
+    opacity: 1;
+}
+
+body.is-loading #header.alt:before {
+    background-color: black;
+}
+
+body.is-loading #header.alt .inner {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1280px) {
+
+    #header {
+        background-attachment: scroll;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #header {
+        padding: 4em 2em 2em 2em;
+    }
+
+    #header.alt h1 {
+        font-size: 3.5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #header.alt p {
+        padding: 0;
+        font-size: 1em;
+    }
+
+    #header.alt .inner {
+        max-width: 20em;
+    }
+
+}

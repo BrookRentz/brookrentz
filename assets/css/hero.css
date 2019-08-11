@@ -1,5 +1,5 @@
 .hero {
-  height: 400px;
+  height: 50vh;
   background: url(debugduck.jpg) no-repeat center top;
   background-size: cover;
 }
@@ -15,7 +15,8 @@
 }
 
 .hero-text {
-  height: 400px;
+  padding-top: 25px;
+  height: 50vh;
   vertical-align: center;
   width: 100%;
   text-align: center;

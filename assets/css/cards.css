@@ -5,8 +5,36 @@
 }
 
 .card-deck {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding: 10px 50px;
+}
+
+.card-footer a {
+    color: #6c757d;
+    font-size: 1.5em;
+}
+
+.card-footer a:hover {
+    color: #786094;
+    text-decoration: none;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-footer li {
+    padding: 0px 25px;
+}
+
+.card-tech {
+    float: bottom;
+    text-align: center;
+        margin: 0px 20px 10px 20px;
+}
+
+.card-tech li {
+    margin: 0px 3px 10px 3px;
+    background: #786094;
+    color: #ffffff;
+    border-radius: 25px;
 }
